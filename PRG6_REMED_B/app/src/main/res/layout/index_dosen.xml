@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- ListView to display the list of dosen -->
+    <ListView
+        android:id="@+id/listViewDosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:layout_above="@+id/buttonAddDosen"/>
+
+    <!-- Button to add new dosen -->
+    <Button
+        android:id="@+id/buttonAddDosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Tambah Dosen" />
+</RelativeLayout>
